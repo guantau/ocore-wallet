@@ -41,8 +41,16 @@ wallet address
 wallet balance
    
 # Spend coins. Amount is specified in BYTES
-wallet send SENFAKDJEFYYUNLACJMXQPGLO6563YFR 1000 "dinner"
+wallet payment SENFAKDJEFYYUNLACJMXQPGLO6563YFR 1000 "dinner"
   * Tx created: ID 67f1 [temporary] RequiredSignatures: 2
+
+# Sign the TX proposal.
+wallet sign 67f1
+  * Transaction 67f1 signed by you.
+
+# Broadcast the TX.
+wallet broadcast 67f1
+  * Transaction Broadcasted: TXID: xxxxx
 
 # List pending TX Proposals
 wallet txproposals
