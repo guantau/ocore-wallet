@@ -21,7 +21,7 @@
     "async": "^2.6.3",
     "bitcore-lib": "^8.6.0",
     "commander": "^2.6.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.9.0",
     "npmlog": "^1.2.0",
     "ocore-wallet-client": "git+https://github.com/guantau/ocore-wallet-client.git",
